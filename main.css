@@ -1,0 +1,92 @@
+html, body {
+	height: 100vh;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;	
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+	color: #15ff00;
+	font-size: xxx-large;
+}
+
+ol{
+	list-style-type: none;
+	text-align: center;
+}
+
+li, a{
+	color: rgb(0, 174, 255);
+	text-decoration: none;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+li:hover, a:hover {
+	background-color: #fff8b6;
+	
+}
+
+#back:hover{
+	background-color: #fff8b6;
+	color: #000000;
+	cursor: pointer;
+}
+
+p{
+	font-size: large;
+	color: rgb(0, 174, 255);
+	cursor: pointer;
+}
+
+p:hover{
+	background-color: #fff8b6;
+}
+
+
+#Aunt_Maggy, #Blackpool_Rock, #Chinese_Laundry, #Fanlight_Fanny, #Grandads_Flannelette, #Leaning_On_A_Lamp_Post, #On_The_Wigan, #Our_Sergeant, #When_Im_Cleaning_Windows, #With_My_Little_Ukelele {
+	display: none;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	justify-content: center;
+	align-content: center;
+}
+
+.div1 { 
+	grid-area: 1 / 1 / 2 / 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+.div2 { 
+	grid-area: 2 / 1 / 3 / 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+.div3 { 
+	grid-area: 2 / 2 / 3 / 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+.div4 { 
+	grid-area: 3 / 1 / 4 / 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
